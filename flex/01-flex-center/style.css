@@ -3,6 +3,10 @@
   border: 4px solid midnightblue;
   width: 400px;
   height: 300px;
+  display: flex;
+  /* setting flex display for all of the children of this container, in this case our box */
+  align-items: center;
+  justify-content: center;;
 }
 
 .box {

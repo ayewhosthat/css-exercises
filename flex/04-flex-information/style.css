@@ -1,5 +1,6 @@
 body {
   font-family: 'Courier New', Courier, monospace;
+  text-align: center;
 }
 
 img {
@@ -10,7 +11,20 @@ img {
 .title {
   font-size: 36px;
   font-weight: 900;
+  margin-bottom: 32px;
 }
+
+.plant-container {
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+}
+
+.plant-section {
+  max-width: 200px;
+}
+/* we don't want to set the display type of the plants to flex since the plant-section containers also have 
+text, and the text will show up alongside the images if we set display to flex */
 
 /* do not edit this footer */
 .footer {
